@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #clickButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: brown;
+  }
+
+  #decrementButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: aquamarine;
+  }
+
+  #reset {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: black;
+  }
+  
+  #clickCount {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
