@@ -1,0 +1,77 @@
+* {
+    background-color: #333; /* Gris oscuro */
+    color: #eee; /* Blanco */
+    margin: 10px auto; /* Centrado vertical y horizontalmente */
+}
+
+*::selection{
+    background-color: #7FFFD4; /* Turquesa claro */
+    color: #000; /* Negro */
+}
+
+select{
+    background-color: #B0C4DE; /* Azul claro */
+    border-radius: 5%;
+    color: #000; /* Negro */
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+option{
+    margin: 5px;
+    background-color: #333; /* Gris oscuro */
+    color: #B0C4DE; /* Azul claro */
+}
+
+.user-container h3, .task-container h3 {
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid #eee; /* Blanco */
+    background-color: #3c3c56; /* Azul oscuro */
+    /* Eliminado el degradado */
+    padding: 10px;
+    text-align: center; /* Centrado del texto */
+}
+
+ul, ol {
+    list-style-type: none; /* Elimina los bullets de las listas */
+}
+
+ul li {
+    font-size: 20px;
+}
+
+input[type='checkbox']{
+    background-color: #333; /* Gris oscuro */
+    accent-color: #333; /* Gris oscuro */
+}
+
+input:checked{
+    outline: 2px solid #FAEBD7; /* Marfil */
+    accent-color: #333; /* Gris oscuro */
+}
+
+.user-container li span{
+    color: #566969; /* Turquesa claro */
+    font-weight: 900;
+    font-size: 20px;
+    /* Eliminada la animación */
+}
+
+
+
+.task-container {
+    visibility: hidden;
+    text-align: center; /* Centrado del texto */
+}
+
+.btn {
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.3s;
+    display: block; /* Cambiar a bloque para centrarlo */
+    margin: 10px auto; /* Centrado vertical y horizontalmente */
+}
+
+
